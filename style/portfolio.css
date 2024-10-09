@@ -1,9 +1,43 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f5f1fe;
+  --primary-font: "Roboto Condensed", serif;
+  --secondary-font: "Afacad Flux", serif;
+}
+
+body {
+  font-family: var(--secondary-font);
+}
+
 h1 {
-  font-family: "Roboto Condensed", serif;
-  font-weight: normal;
+  font-family: var(--primary-font);
+  font-weight: bold;
 }
 
 h2 {
-    font-family: "Afacad Flux", serif;
-    font-weight: normal;
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero p {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
