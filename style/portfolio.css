@@ -70,6 +70,16 @@ p {
   margin: auto;
 }
 
+.project-links {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.contact-me-links {
+  font-size: 18px;
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   h2 {
     font-size: 12px;
