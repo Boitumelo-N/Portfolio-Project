@@ -5,6 +5,19 @@
   --secondary-font: "Afacad Flux", serif;
 }
 
+.name-logo {
+  float: left;
+  padding: 12px 15px;
+  font-size: 30px;
+  line-height: 40px;
+  height: auto;
+  width: 180px;
+}
+
+.navbar {
+  font-size: 18px;
+}
+
 body {
   font-family: var(--secondary-font);
 }
